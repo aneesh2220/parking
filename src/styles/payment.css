@@ -1,0 +1,75 @@
+.payment-page {
+  height: 90%;
+  width: 30%;
+  position: absolute;
+  background-color: black;
+  border: 1px solid #1e201e;
+  z-index: 10000000;
+  left: 35%;
+  top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.payment-page h2{
+  color: white;
+
+
+  .rupee-icon{
+    color: gold;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.exit-payments {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  float: right;
+  padding-bottom: 50%;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: white;
+}
+
+.payment-form {
+  height: 70%;
+  width: 60%;
+  background-color: transparent;
+}
+
+.payment-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 100px;
+  color: white;
+
+  button {
+    position: absolute;
+    bottom: 20px;
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  
+
+  input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: white;
+  }
+}

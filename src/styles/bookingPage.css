@@ -1,0 +1,98 @@
+.booking-page {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.exit-icon {
+  color: white;
+  height: 30px;
+  width: 30px;
+  padding-top: 30px;
+  padding-right: 60%;
+  cursor: pointer;
+}
+
+.booking-slots {
+  height: 80%;
+  width: 80%;
+  background-color: black;
+  gap: 30px;
+  display: flex;
+  position: relative;
+  overflow-x: scroll;
+
+  border: 1px solid #1e201e;
+
+  .slot {
+    background-color: red;
+    height: 28%;
+    width: 16%;
+    margin-top: 150px;
+    cursor: pointer;
+  }
+
+
+  .booked-slot{
+    background-color: green;
+    height: 28%;
+    width: 16%;
+    margin-top: 150px;
+    cursor: pointer;
+
+  }
+}
+
+.booking-header {
+  position: relative;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.booking-header h2 {
+  color: white;
+  font-size: 2rem;
+  gap: 12px;
+  transition: transform 0.1s ease-in-out;
+  cursor: pointer;
+  position: absolute;
+  right: 42%;
+  /* padding-top: 30px; */
+  top: 1px;
+  padding-bottom: 10px;
+  z-index: 100000;
+  
+}
+
+.booking-header h2:hover {
+  transform: scale(1.1);
+}
+
+.booking-header h2 span {
+  font-family: "Great Vibes", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 48px) {
+ .slot{
+  width: 20%;
+ }
+
+
+
+ .booking-slots{
+  overflow: scroll;
+ }
+}
